@@ -1,5 +1,5 @@
-#include<iostream>
-using namespace std;
+$ git config --global http.sslBackend "openssl"
+$ git config --global http.sslCAInfo [path to .pem file]
 char* StrCpy(char* src)
 {int len;
 char *a;
