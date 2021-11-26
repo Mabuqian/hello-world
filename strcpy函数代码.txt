@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+char* StrCpy(char* src)
+{int len;
+char *a;
+int i=0;
+len=sizeof(src)/sizeof(char);
+a=(char*)malloc((len+1)*sizeof(char));
+for(;i<len;i++)
+{a[i]=src[i];}
+a[len]='\0';
+return a;
+
+}
